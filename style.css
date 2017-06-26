@@ -1,0 +1,307 @@
+/*
+Theme Name: Theme retro
+Theme URI: https://wordpress.org/themes//
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+*/
+@charset "UTF-8";
+/*font-family: 'Domine', serif;*/
+body,html{
+  margin: 0;
+  padding: 0;
+}
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 23px;
+}
+/*background-image:linear-gradient(black,#CACFD6);*/
+}
+a,a:hover{
+ text-decoration:none;
+}
+
+/*header*/
+.header {
+  width: 100%;
+  background-color:grey;
+  height:400px;
+  text-align:center;
+  background-image:linear-gradient(white, black);
+}
+.header p{
+  height: 30px;
+  border: 1px solid black;
+  width: 5%;
+  background-color: white;
+  float: right;
+}
+/*end header*/
+
+}
+.logo{
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 100px;
+  margin-right: 40px;
+}
+/*Menu*/
+.menu{
+  height: 100px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  margin-top: 80px;
+  /*list-style-type: none;*/
+
+
+}
+.menu a{
+color: black;
+letter-spacing: 1px;
+margin: 50px;
+padding: 10px;
+font-size: 15px;
+/*border-style: solid;*/
+margin-bottom: 20px;
+height: 20px;
+
+}
+
+header a:hover{
+color: #ffffff;
+}
+/*end Menu*/
+
+.footer:hover{
+  color:#ffffff;
+}
+/*banniere*/
+.banner{
+  text-align: center;
+}
+.banner img{
+  margin: 20px;
+  width: 60%;
+}
+
+  section#contact {
+    background-color: #222222;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section {
+    padding: 30px 0PX;
+}
+section#contact .section-heading {
+    color: white;
+}
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+section#contact .form-group input.form-control {
+    height: auto;
+}
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+.gellary_bg_none img{
+	width: 100%;
+	height: 250px;
+}
+section#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+.about_our_company{
+    text-align: center;
+}
+.about_our_company h1{
+    font-size: 25px;
+}
+.titleline-icon {
+    position: relative;
+    max-width: 100px;
+    border-top: 4px double #F99700;
+    margin: 20px auto 20px;
+}
+.titleline-icon:after {
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'FontAwesome';
+    content: "\f141";
+    font-size: 20px;
+    line-height: 1;
+    color: #F99700;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 20px;
+    background: #ffffff;
+}
+
+
+
+}
+
+.ban img{
+  width: 60%;
+  padding: 10px;
+  padding-top: 50px;
+}
+.ban{
+margin:auto;
+padding-bottom: 60px;
+width: 80%;
+text-align: center;
+}
+
+
+.ban2{
+margin: 0px;
+padding: 0px;
+
+}
+.ban2 img{
+  
+  margin: auto;
+  padding: 100px;
+}
+.banner2 article{
+  padding-left:100px;
+  padding-right: 80px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.ban3{
+text-align: center;
+margin:10px;
+font-size: 20px;
+padding: -30px;
+}
+.ban3 h1{
+  margin:40px;
+}
+.ban3 img{
+  width: 90%;
+  margin: -50px;
+  padding: 100px;
+}
+.banner3 article{
+  padding-left:60px;
+  padding-right: 70px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.ban4{
+text-align: center;
+margin:10px;
+font-size: 20px;
+padding: -30px;
+}
+
+.ban4 img{
+  width: 90%;
+  margin: -50px;
+  padding: 100px;
+}
+.banner4 article{
+  padding-left:100px;
+  padding-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.banner4 h2{
+  margin-top: 20px;
+}
+
+
+/*end banniere*/
+
+.container-fluid{
+  margin: 0px;
+  padding: 0px;
+}
+
+.inner-banner{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/*footer*/
+
+.footer{
+  margin-top: 0px;
+  width: 100%;
+  height:200px;
+  text-align:center;
+  background-image:linear-gradient(white, black);
+  color: black;
+  font-size: 20px;
+
+}
+
+.footer h3{
+font-size: 15px;
+margin: 10px;
+padding-top: 20px;
+}
+
+.footer p{
+margin:30px;
+font-size: 15px;
+padding-right: 10px;
+font-style: italic;
+}
+.banner4 h2{
+  font-style: oblique;
+}
